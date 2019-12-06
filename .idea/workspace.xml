@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="ProjectId" id="1U6XEZjxmphVYRZOYDxqFqjBWYm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="" />
+      <created>1574677907626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574677907626</updated>
+    </task>
+    <task id="LOCAL-00001" summary="End of Week 1">
+      <created>1575362127460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575362127460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialize DB, fill with capitals and their info">
+      <created>1575384580377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575384580379</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Print steden uit DB, Sorteer op afstand">
+      <created>1575451214448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575451214448</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Background Pictures, Code verdeeld over aparte bestanden">
+      <created>1575466144155</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575466144156</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First nice layout, menu with buttons for different parts">
+      <created>1575538370130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575538370130</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update retrieve Temperature, sort cities by distance or temperature">
+      <created>1575560260660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575560260660</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sort by comination of distance and temperature">
+      <created>1575630066957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575630066957</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="End of Week 1" />
+    <MESSAGE value="Initialize DB, fill with capitals and their info" />
+    <MESSAGE value="Print steden uit DB, Sorteer op afstand" />
+    <MESSAGE value="Add Background Pictures, Code verdeeld over aparte bestanden" />
+    <MESSAGE value="First nice layout, menu with buttons for different parts" />
+    <MESSAGE value="Update retrieve Temperature, sort cities by distance or temperature" />
+    <MESSAGE value="Sort by comination of distance and temperature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort by comination of distance and temperature" />
+  </component>
+</project>
