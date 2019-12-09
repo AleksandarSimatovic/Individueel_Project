@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "test": "mocha"
+    "test": "mocha -r esm --recursive"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "esm": "^3.2.25",
     "mocha": "^6.2.2",
     "nodemon": "^2.0.1"
   }
