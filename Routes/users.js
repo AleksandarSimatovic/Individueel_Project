@@ -1,6 +1,7 @@
-const user = require('../User.js');
+const router = require('express').Router();
+const user = require('../models/User.js');
 
-app.post('/api/register', (req,res) => {
+router.route('/api/register').post((req,res) => {
     const {email, password} = req.body;
     const user = new User({ email, password});
     user.save( (err) => {
@@ -12,5 +13,5 @@ app.post('/api/register', (req,res) => {
             res.status(200)
                 .send("Registered!");
         }
-    });
+    }));
 });
