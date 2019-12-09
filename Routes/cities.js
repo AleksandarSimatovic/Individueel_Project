@@ -1,6 +1,7 @@
 const router = require('express').Router();
 let City = require('../models/city.model');
 
+
 router.route('/').get((req, res) => {
     City.find()
     .then(cities => res.json(cities))
@@ -34,6 +35,8 @@ router.route('/add').post((req, res) => {
 router.route('/delete').delete((req, res) => {
 
 });
+
+
 
 
 module.exports = router;
