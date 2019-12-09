@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const jwt = require('jsonwebtoken');
+const secret = process.env.SECRET;
 let User = require('../models/User');
+
 
 
 router.route('/api/register').post((req,res) => {
