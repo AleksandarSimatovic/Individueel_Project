@@ -18,7 +18,9 @@ connection.once('open', () => {
 })
 
 const citiesRouter = require('./Routes/cities');
+const usersRouter = require('./Routes/users');
 app.use('/cities', citiesRouter);
+app.use('/users', usersRouter);
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
 

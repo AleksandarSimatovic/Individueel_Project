@@ -1,17 +1,19 @@
 const router = require('express').Router();
-const user = require('../models/User.js');
+let User = require('../models/User');
 
 router.route('/api/register').post((req,res) => {
-    const {email, password} = req.body;
-    const user = new User({ email, password});
-    user.save( (err) => {
-        if (err){
-            res.status(500)
-                .send("Error registering new user. Please try again");
-        }
-        else{
-            res.status(200)
-                .send("Registered!");
-        }
-    }));
+
+    const email = req.body.email;
+    const password = req.body.password;
+    const newUser = new User({
+        email,
+        password
+    });
+
+    newUser.save()
+    .then(() => res.json("Registered!"))
+    .catch(err => res.status(400).json("Error: " + err));
+
 });
+
+module.exports = router;
