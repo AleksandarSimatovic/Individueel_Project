@@ -13,12 +13,14 @@ router.route('/api/register').post((req,res) => {
     const email = req.body.email;
     const password = req.body.password;
     const today = new Date();
+    const type = req.body.type;
 
     const newUser = new User({
         today,
         username,
         email,
-        password
+        password,
+        type
     });
 
     User.findOne({
