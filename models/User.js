@@ -20,7 +20,11 @@ const UserSchema = new Schema({
   },
   type: {
     type: String,
-    default: "user"
+    default: "mortal"
+  },
+  ratings: {
+    type: Array,
+    default: []
   }
 });
 

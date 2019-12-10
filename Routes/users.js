@@ -14,13 +14,15 @@ router.route('/api/register').post((req,res) => {
     const password = req.body.password;
     const today = new Date();
     const type = req.body.type;
+    const ratings = req.body.ratings;
 
     const newUser = new User({
         today,
         username,
         email,
         password,
-        type
+        type,
+        ratings
     });
 
     User.findOne({
@@ -60,7 +62,9 @@ router.route('/api/login').post((req,res) => {
                 const payload = {
                     _id: user._id,
                     username: user.username,
-                    email: user.email
+                    email: user.email,
+                    type: user.type,
+                    ratings: user.ratings
                 }
                 let token = jwt.sign(payload, process.env.SECRET, {
                     expiresIn: 1440
