@@ -9,7 +9,8 @@ const citySchema = new Schema({
     spokenLanguages: {type: Array, required: true},
     temperature: {type: Number},
     cityLat: {type: Number},
-    cityLng: {type: Number}
+    cityLng: {type: Number},
+    cityRating: {type: Array}
 });
 
 const City = mongoose.model('City', citySchema);

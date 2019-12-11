@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routes/cities.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/cities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/city.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/city.model.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575992269027</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Start AddComments full layout and buttons, only DB connection needed">
+      <created>1576057859991</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576057859991</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -169,6 +176,18 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                        <option value="$PROJECT_DIR$/client" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -191,6 +210,7 @@
     <MESSAGE value="Add profile" />
     <MESSAGE value="Remove unnecessary code" />
     <MESSAGE value="Start AddComments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start AddComments" />
+    <MESSAGE value="Start AddComments full layout and buttons, only DB connection needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start AddComments full layout and buttons, only DB connection needed" />
   </component>
 </project>
