@@ -39,7 +39,7 @@ router.route('/delete').delete((req, res) => {
 });
 
 
-router.route('/update').post((req,res) => {
+router.route('/updateCity').post((req,res) => {
     const cityNameReq = req.body.cityName;
     const username = req.body.username;
     const email = req.body.email;

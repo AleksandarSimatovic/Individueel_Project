@@ -82,7 +82,21 @@ router.route('/api/login').post((req,res) => {
     .catch(err => {
         res.send('error: ' + err)
     })
-
 });
+
+router.route('/updateUser').post((req,res) => {
+    const username = req.body.username;
+    const city = req.body.city;
+    const message = req.body.message;
+    const amountOfStars = req.body.amountOfStars;
+    const ratingInput = {message, amountOfStars, city}
+    User.find({username: username})
+    .then(user => {
+        user[0].ratings.push(ratingInput)
+        user[0].save()
+        res.json(user[0]);
+    })
+    .catch(err => res.status(400).json('Error: ' + err));
+})
 
 module.exports = router;
