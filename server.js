@@ -25,11 +25,13 @@ connection.once('open', () => {
 const citiesRouter = require('./Routes/cities');
 const usersRouter = require('./Routes/users');
 const tempRouter = require('./Routes/temperature');
+const locationRouter = require('./Routes/location');
 const authenticationRouter = require('./Routes/authentication');
 
 app.use('/cities', citiesRouter);
 app.use('/users', usersRouter);
 app.use('/temperature', tempRouter);
+app.use('/location', locationRouter);
 app.use('/authentication', authenticationRouter);
 
 app.listen(port, () => console.log(`Server started on port ${port}`));

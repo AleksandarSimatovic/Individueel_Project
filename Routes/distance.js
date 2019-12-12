@@ -1,8 +1,7 @@
 const router = require('express').Router();
-var fetch = require('node-fetch')
 
 
-router.route('/getTemperature').post((req, res) => {
+router.route('/getDistance').post((req, res) => {
 
     const cityName = req.body.cityName;
     const url = "http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&APPID=840e44ccd3376f040093e83e5be8f34f";

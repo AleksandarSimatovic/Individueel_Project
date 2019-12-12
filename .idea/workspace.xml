@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Routes/temperature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Routes/distance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Routes/location.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routes/temperature.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/temperature.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
   </component>
   <component name="ProjectId" id="1U6XEZjxmphVYRZOYDxqFqjBWYm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -224,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576144075249</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Move getTemp fetch from client to server">
+      <created>1576148701790</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576148701790</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -286,6 +292,7 @@
     <MESSAGE value="Remove unnecessary code" />
     <MESSAGE value="Remove unnecessary code client" />
     <MESSAGE value="Remove unnecessary files client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary files client" />
+    <MESSAGE value="Move getTemp fetch from client to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move getTemp fetch from client to server" />
   </component>
 </project>
