@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Routes/weather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U6XEZjxmphVYRZOYDxqFqjBWYm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576152493502</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Move getCityInfo fetch from client to server">
+      <created>1576153577769</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576153577769</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -273,7 +280,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="End of Week 1" />
     <MESSAGE value="Initialize DB, fill with capitals and their info" />
     <MESSAGE value="Print steden uit DB, Sorteer op afstand" />
     <MESSAGE value="Add Background Pictures, Code verdeeld over aparte bestanden" />
@@ -298,6 +304,7 @@
     <MESSAGE value="Remove unnecessary files client" />
     <MESSAGE value="Move getTemp fetch from client to server" />
     <MESSAGE value="Move getcurrentlocation fetch from client to server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move getcurrentlocation fetch from client to server" />
+    <MESSAGE value="Move getCityInfo fetch from client to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move getCityInfo fetch from client to server" />
   </component>
 </project>
