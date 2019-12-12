@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/distance.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/distance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576160894871</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Fix oneclick distance">
+      <created>1576162468106</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1576162468106</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -308,7 +314,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update retrieve Temperature, sort cities by distance or temperature" />
     <MESSAGE value="Sort by comination of distance and temperature" />
     <MESSAGE value="Fix bug with DB init" />
     <MESSAGE value="Fix city not found bug" />
@@ -333,6 +338,7 @@
     <MESSAGE value="Move location fetch for capitalInit from client to server" />
     <MESSAGE value="Fix capitalInit" />
     <MESSAGE value="Fix oneclick temperature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix oneclick temperature" />
+    <MESSAGE value="Fix oneclick distance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix oneclick distance" />
   </component>
 </project>
