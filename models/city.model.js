@@ -14,7 +14,8 @@ const citySchema = new Schema({
     cityLng: {type: Number},
     cityRating: {type: Array},
     currentRatingNumbers: {type: Array},
-    currentRating: {type: Number}
+    currentRating: {type: Number},
+    continent: {type: String},
 });
 
 const City = mongoose.model('City', citySchema);

@@ -21,6 +21,7 @@ router.route('/add').post((req, res) => {
     const ratings = req.body.cityRatings;
     const currentRating = req.body.currentRating;
     const currentRatingNumbers = req.body.currentRatingNumbers;
+    const continent = req.body.continent;
 
     const newCity = new City({
         cityName: req.body.cityName,
@@ -34,7 +35,8 @@ router.route('/add').post((req, res) => {
         cityLng,
         ratings,
         currentRatingNumbers,
-        currentRating
+        currentRating,
+        continent
     });
 
     newCity.save()
