@@ -17,6 +17,8 @@ router.route('/add').post((req, res) => {
     const cityLat = req.body.cityLat;
     const cityLng = req.body.cityLng;
     const ratings = req.body.cityRatings;
+    const currentRating = req.body.currentRating;
+    const currentRatingNumbers = req.body.currentRatingNumbers;
 
     const newCity = new City({
         cityName: req.body.cityName,
@@ -26,7 +28,9 @@ router.route('/add').post((req, res) => {
         temperature,
         cityLat,
         cityLng,
-        ratings
+        ratings,
+        currentRatingNumbers,
+        currentRating
     });
 
     newCity.save()
@@ -45,10 +49,12 @@ router.route('/updateCity').post((req,res) => {
     const email = req.body.email;
     const message = req.body.message;
     const amountOfStars = req.body.amountOfStars;
+    const currentRatingNumbers = req.body.currentRatingNumbers;
     const ratingInput = {username, email, message, amountOfStars}
     City.find({cityName: cityNameReq})
     .then(city => {
         city[0].cityRating.push(ratingInput)
+        city[0].currentRatingNumbers.push(amountOfStars)
         city[0].save()
         res.json(city[0]);
     })

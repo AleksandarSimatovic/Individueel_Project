@@ -10,7 +10,9 @@ const citySchema = new Schema({
     temperature: {type: Number},
     cityLat: {type: Number},
     cityLng: {type: Number},
-    cityRating: {type: Array}
+    cityRating: {type: Array},
+    currentRatingNumbers: {type: Array},
+    currentRating: {type: Number}
 });
 
 const City = mongoose.model('City', citySchema);
