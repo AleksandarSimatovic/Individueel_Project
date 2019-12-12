@@ -25,4 +25,26 @@ router.route('/getCityInfo').post((req, res) => {
 });
 
 
+router.route('/getCountryInfo').get((req, res) => {
+    const url = "http://api.geonames.org/countryInfoJSON?formatted=true&username=destinationFinder";
+    fetch(url)
+    .then(res => res.json())
+    .then(data => {
+        res.json(data);
+    })
+    .catch(console.log);
+});
+
+
+router.route('/getSpecificCity').post((req, res) => {
+    const city = req.body.cityName;
+    const url = "http://api.geonames.org/searchJSON?q=" + city + "&maxRows=2&username=destinationFinder";
+    fetch(url)
+    .then(res => res.json())
+    .then(data => {
+        res.json(data);
+    })
+    .catch(console.log);
+});
+
 module.exports = router;
