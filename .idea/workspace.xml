@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -248,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576156270162</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Move location fetch for capitalInit from client to server">
+      <created>1576156931375</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1576156931375</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -287,7 +292,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Print steden uit DB, Sorteer op afstand" />
     <MESSAGE value="Add Background Pictures, Code verdeeld over aparte bestanden" />
     <MESSAGE value="First nice layout, menu with buttons for different parts" />
     <MESSAGE value="Update retrieve Temperature, sort cities by distance or temperature" />
@@ -312,6 +316,7 @@
     <MESSAGE value="Move getcurrentlocation fetch from client to server" />
     <MESSAGE value="Move getCityInfo fetch from client to server" />
     <MESSAGE value="Move weather fetch from client to server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move weather fetch from client to server" />
+    <MESSAGE value="Move location fetch for capitalInit from client to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move location fetch for capitalInit from client to server" />
   </component>
 </project>
