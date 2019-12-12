@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Routes/temperature.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Checkbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U6XEZjxmphVYRZOYDxqFqjBWYm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -212,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576143630018</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Remove unnecessary code client">
+      <created>1576143985707</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576143985707</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Remove unnecessary files client">
+      <created>1576144075248</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576144075249</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -272,6 +284,8 @@
     <MESSAGE value="Update profile ratings to 'coming soon'" />
     <MESSAGE value="Implement first basic rating sort" />
     <MESSAGE value="Remove unnecessary code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary code" />
+    <MESSAGE value="Remove unnecessary code client" />
+    <MESSAGE value="Remove unnecessary files client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary files client" />
   </component>
 </project>
