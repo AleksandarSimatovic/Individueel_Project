@@ -52,7 +52,6 @@ router.route('/api/register').post((req,res) => {
 });
 
 router.route('/api/login').post((req,res) => {
-
     User.findOne({
         email: req.body.email
     })

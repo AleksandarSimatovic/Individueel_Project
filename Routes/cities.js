@@ -70,6 +70,5 @@ router.route('/updateCity').post((req,res) => {
 
 
 
-
 module.exports = router;
 

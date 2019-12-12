@@ -30,7 +30,6 @@ app.use('/cities', citiesRouter);
 app.use('/users', usersRouter);
 app.use('/authentication', authenticationRouter);
 
-
 app.listen(port, () => console.log(`Server started on port ${port}`));
 
 
