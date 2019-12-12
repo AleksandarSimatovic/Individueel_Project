@@ -8,6 +8,8 @@ const citySchema = new Schema({
     distance: {type: Number},
     spokenLanguages: {type: Array, required: true},
     temperature: {type: Number},
+    temperatureMax: {type: Number},
+    temperatureMin: {type: Number},
     cityLat: {type: Number},
     cityLng: {type: Number},
     cityRating: {type: Array},

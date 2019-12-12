@@ -26,6 +26,8 @@ router.route('/add').post((req, res) => {
         distance,
         spokenLanguages,
         temperature,
+        temperatureMax,
+        temperatureMin,
         cityLat,
         cityLng,
         ratings,
