@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/cities.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/cities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
-    </list>
+    <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
   </component>
   <component name="ProjectId" id="1U6XEZjxmphVYRZOYDxqFqjBWYm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -179,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576140179778</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add current rating to cities as a mean of all ratings given (plus startrating of 3)">
+      <created>1576142095465</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576142095465</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -236,6 +237,7 @@
     <MESSAGE value="Ratings get added to DB user and city" />
     <MESSAGE value="Ratings are stored at correct user" />
     <MESSAGE value="Add number of ratings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add number of ratings" />
+    <MESSAGE value="Add current rating to cities as a mean of all ratings given (plus startrating of 3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add current rating to cities as a mean of all ratings given (plus startrating of 3)" />
   </component>
 </project>
