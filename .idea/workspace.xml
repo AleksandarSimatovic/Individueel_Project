@@ -4,13 +4,11 @@
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Routes/cities.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/cities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddComment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ShowCapitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ShowCapitals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/userFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/userFunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/city.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/city.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576163661751</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Change localhost into outward IP">
+      <created>1576164168613</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1576164168613</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -327,7 +332,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix bug with DB init" />
     <MESSAGE value="Fix city not found bug" />
     <MESSAGE value="Change css, add type to distance and temperature" />
     <MESSAGE value="Add withAuth" />
@@ -352,6 +356,7 @@
     <MESSAGE value="Fix oneclick temperature" />
     <MESSAGE value="Fix oneclick distance" />
     <MESSAGE value="Fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix typo" />
+    <MESSAGE value="Change localhost into outward IP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change localhost into outward IP" />
   </component>
 </project>
