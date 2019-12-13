@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddComment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ShowCapitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ShowCapitals.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -365,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576231295673</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Make paths relative in searchByCity">
+      <created>1576231920359</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1576231920359</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -404,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement first basic rating sort" />
     <MESSAGE value="Remove unnecessary code" />
     <MESSAGE value="Remove unnecessary code client" />
     <MESSAGE value="Remove unnecessary files client" />
@@ -429,6 +437,7 @@
     <MESSAGE value="Update view rating alert" />
     <MESSAGE value="Implement search city show population" />
     <MESSAGE value="Change localhost in searchByCity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change localhost in searchByCity" />
+    <MESSAGE value="Make paths relative in searchByCity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make paths relative in searchByCity" />
   </component>
 </project>
