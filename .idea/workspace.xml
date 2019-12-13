@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/SearchByCity.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByCity.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -345,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576227981925</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Update view rating alert">
+      <created>1576229064646</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1576229064647</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -384,7 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add number of ratings" />
     <MESSAGE value="Add current rating to cities as a mean of all ratings given (plus startrating of 3)" />
     <MESSAGE value="Update profile ratings to 'coming soon'" />
     <MESSAGE value="Implement first basic rating sort" />
@@ -409,6 +414,7 @@
     <MESSAGE value="Fix australia continent code" />
     <MESSAGE value="Fix typos" />
     <MESSAGE value="Add view ratings for users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add view ratings for users" />
+    <MESSAGE value="Update view rating alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update view rating alert" />
   </component>
 </project>
