@@ -37,7 +37,7 @@ router.route('/getCountryInfo').get((req, res) => {
 
 
 router.route('/getSpecificCity').post((req, res) => {
-    const city = req.body.cityName;
+    const city = req.body.capitalName;
     const url = "http://api.geonames.org/searchJSON?q=" + city + "&maxRows=2&username=destinationFinder";
     fetch(url)
     .then(res => res.json())

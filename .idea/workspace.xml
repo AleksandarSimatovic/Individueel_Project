@@ -4,6 +4,7 @@
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576166538982</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add continent selection for user">
+      <created>1576167399477</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1576167399477</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -349,7 +357,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add profile" />
     <MESSAGE value="Start AddComments" />
     <MESSAGE value="Start AddComments full layout and buttons, only DB connection needed" />
     <MESSAGE value="Ratings get added to DB user and city" />
@@ -374,6 +381,7 @@
     <MESSAGE value="Add Temp max and min" />
     <MESSAGE value="Style table Temp max and min" />
     <MESSAGE value="Add continent to city model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add continent to city model" />
+    <MESSAGE value="Add continent selection for user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add continent selection for user" />
   </component>
 </project>
