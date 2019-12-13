@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/location.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -319,7 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576167399477</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fix location bug at capitalInit">
+      <created>1576224344696</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1576224344696</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fix australia continent code">
+      <created>1576224539089</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1576224539089</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -358,7 +369,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start AddComments full layout and buttons, only DB connection needed" />
     <MESSAGE value="Ratings get added to DB user and city" />
     <MESSAGE value="Ratings are stored at correct user" />
     <MESSAGE value="Add number of ratings" />
@@ -383,6 +393,7 @@
     <MESSAGE value="Add continent to city model" />
     <MESSAGE value="Add continent selection for user" />
     <MESSAGE value="Fix location bug at capitalInit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix location bug at capitalInit" />
+    <MESSAGE value="Fix australia continent code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix australia continent code" />
   </component>
 </project>
