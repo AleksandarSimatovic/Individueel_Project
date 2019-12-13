@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -337,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576224927885</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add view ratings for users">
+      <created>1576227981925</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1576227981925</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -376,7 +384,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ratings are stored at correct user" />
     <MESSAGE value="Add number of ratings" />
     <MESSAGE value="Add current rating to cities as a mean of all ratings given (plus startrating of 3)" />
     <MESSAGE value="Update profile ratings to 'coming soon'" />
@@ -401,6 +408,7 @@
     <MESSAGE value="Fix location bug at capitalInit" />
     <MESSAGE value="Fix australia continent code" />
     <MESSAGE value="Fix typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix typos" />
+    <MESSAGE value="Add view ratings for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add view ratings for users" />
   </component>
 </project>
