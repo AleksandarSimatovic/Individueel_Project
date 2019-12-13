@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/AddComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/CapitalInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CapitalInit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ShowCapitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ShowCapitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/userFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/userFunctions.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -374,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576231920359</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Make paths relative">
+      <created>1576232225309</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1576232225309</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -413,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove unnecessary code" />
     <MESSAGE value="Remove unnecessary code client" />
     <MESSAGE value="Remove unnecessary files client" />
     <MESSAGE value="Move getTemp fetch from client to server" />
@@ -438,6 +444,7 @@
     <MESSAGE value="Implement search city show population" />
     <MESSAGE value="Change localhost in searchByCity" />
     <MESSAGE value="Make paths relative in searchByCity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make paths relative in searchByCity" />
+    <MESSAGE value="Make paths relative" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make paths relative" />
   </component>
 </project>
