@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c30c2274-8c03-48ad-8fa6-548ba7cfbb3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/SearchByPreferences.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/SearchByPreferences.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/client/src/utilTest.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,15 +16,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1U6XEZjxmphVYRZOYDxqFqjBWYm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574677907626</updated>
-    </task>
-    <task id="LOCAL-00001" summary="End of Week 1">
-      <created>1575362127460</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1575362127460</updated>
     </task>
     <task id="LOCAL-00002" summary="Initialize DB, fill with capitals and their info">
       <created>1575384580377</created>
@@ -386,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576232407059</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Update css">
+      <created>1578486769276</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1578486769277</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fix error in sort on mintemp">
+      <created>1578486934128</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1578486934130</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -425,8 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove unnecessary files client" />
-    <MESSAGE value="Move getTemp fetch from client to server" />
     <MESSAGE value="Move getcurrentlocation fetch from client to server" />
     <MESSAGE value="Move getCityInfo fetch from client to server" />
     <MESSAGE value="Move weather fetch from client to server" />
@@ -450,6 +468,8 @@
     <MESSAGE value="Make paths relative in searchByCity" />
     <MESSAGE value="Make paths relative" />
     <MESSAGE value="Make paths relative last ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make paths relative last ones" />
+    <MESSAGE value="Update css" />
+    <MESSAGE value="Fix error in sort on mintemp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix error in sort on mintemp" />
   </component>
 </project>
