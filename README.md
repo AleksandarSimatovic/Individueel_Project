@@ -1,4 +1,4 @@
-# Individueel_Project
+# Project
 Dit project bevat de source code voor mijn individuele project bij Sogyo: Destination Finder.
 
 # Lokaal testen
