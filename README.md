@@ -6,9 +6,5 @@ Je kunt het project lokaal runnen via npm. Run de volgende twee commando's in de
 
 npm clean-install
 
-npm run server
-
-Run het volgende commando in root/client:
-
-npm run start
+npm run dev
 
